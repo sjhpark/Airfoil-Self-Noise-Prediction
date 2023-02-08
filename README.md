@@ -36,6 +36,8 @@ Used the weight decay of 1E-2 as L2 Regularization to prevent overfitting.
 
 Mean Squared Loss was used as the loss function to calculate errors between the ground-truth and predicted sound pressure levels.
 
+![image](https://user-images.githubusercontent.com/83327791/217629561-60b04922-5443-451a-869b-efd08aec26b8.png)
+
 ![loss](https://user-images.githubusercontent.com/83327791/217627423-bcc37713-3b72-4608-a958-74971461545b.png)
 
 
