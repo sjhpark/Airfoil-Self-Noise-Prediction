@@ -1,6 +1,7 @@
 # Airfoil-Self-Noise-Prediction
 
-Predicting airfoil self-noise using ML techniques
+Predicting airfoil self-noise using machine learning and deep learning techniques
+
 ---
 ## Flow Conditions That Produce Airfoil Self-Noise
 ![image](https://user-images.githubusercontent.com/83327791/217485428-00f4bdd3-14ed-4977-a760-35d651cbb818.png)
@@ -23,8 +24,13 @@ The airfoil self-noise dataset has:
 ## Feature Engineering & Pre-Processing
 I have normalized, shuffled, and 80% 10% 10% Train-Test-Validation Split the dataset.
 
+## Multi-Layer Perceptron (MLP)
+Created a feed-forward MLP to train. Used 4 hidden layers with ReLU activation function at each layer.
+![image](https://user-images.githubusercontent.com/83327791/217498006-207a9f33-9876-4422-bd18-f2314ac05e93.png)
+
+
 ## Results
-Achieved total test MSE Loss as 3.8 after 500 epochs of training with batch size of 32 and learning rate of 0.0005.
+Achieved total test MSE Loss of 3.8 after 500 epochs of training with batch size of 32 and learning rate of 0.0005.
 
 Used the weight decay of 1E-2 as L2 Regularization to prevent overfitting.
 
