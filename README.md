@@ -24,6 +24,11 @@ The airfoil self-noise dataset has:
 ## Feature Engineering & Pre-Processing
 I have normalized, shuffled, and 80% 10% 10% Train-Test-Validation Split the dataset.
 
+## Multi-Layer Perceptron (MLP)
+Created a feed-forward MLP to train. Used 4 hidden layers with ReLU activation function at each layer.
+![image](https://user-images.githubusercontent.com/83327791/217498006-207a9f33-9876-4422-bd18-f2314ac05e93.png)
+
+
 ## Results
 Achieved total test MSE Loss as 3.8 after 500 epochs of training with batch size of 32 and learning rate of 0.0005.
 
