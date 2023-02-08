@@ -30,13 +30,15 @@ Created a feed-forward MLP to train. Used 4 hidden layers with ReLU activation f
 
 
 ## Results
-Achieved total test MSE Loss of 3.8 after 500 epochs of training with batch size of 32 and learning rate of 0.0005.
+Achieved total test MSE Loss of 3.99 after 500 epochs of training with batch size of 32 and learning rate of 0.0005.
 
 Used the weight decay of 1E-2 as L2 Regularization to prevent overfitting.
 
 Mean Squared Loss was used as the loss function to calculate errors between the ground-truth and predicted sound pressure levels.
 
-![image](https://user-images.githubusercontent.com/83327791/217485934-1278e92a-2d72-4a8b-a532-3c32c9f02ba4.png)
+![loss](https://user-images.githubusercontent.com/83327791/217627423-bcc37713-3b72-4608-a958-74971461545b.png)
+
+
 
 ## References
 [1] Thomas F. Brooks, D. Stuart Pope, and Michael A. Marcolini. Airfoil self-noise and prediction. NTRS Author
