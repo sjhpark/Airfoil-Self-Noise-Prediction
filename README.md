@@ -1,6 +1,6 @@
 # Airfoil-Self-Noise-Prediction
 
-Predicting airfoil self-noise using machine learning techniques
+Predicting airfoil self-noise using machine learning and deep learning techniques
 
 ---
 ## Flow Conditions That Produce Airfoil Self-Noise
