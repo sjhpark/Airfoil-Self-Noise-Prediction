@@ -30,7 +30,7 @@ Created a feed-forward MLP to train. Used 4 hidden layers with ReLU activation f
 
 
 ## Results
-Achieved total test MSE Loss as 3.8 after 500 epochs of training with batch size of 32 and learning rate of 0.0005.
+Achieved total test MSE Loss of 3.8 after 500 epochs of training with batch size of 32 and learning rate of 0.0005.
 
 Used the weight decay of 1E-2 as L2 Regularization to prevent overfitting.
 
