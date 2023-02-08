@@ -22,7 +22,7 @@ The airfoil self-noise dataset has:
     - Sound Pressure Level [dB] 
 
 ## Feature Engineering & Pre-Processing
-I have normalized, shuffled, and 80% 10% 10% Train-Test-Validation Split the dataset.
+I have shuffled, Split, and Normalized the dataset.
 
 ## Multi-Layer Perceptron (MLP)
 Created a feed-forward MLP to train. Used 4 hidden layers with ReLU activation function at each layer.
