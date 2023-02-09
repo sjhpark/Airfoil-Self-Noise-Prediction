@@ -30,15 +30,16 @@ Created a feed-forward MLP to train. Used 4 hidden layers with ReLU activation f
 
 
 ## Results
-Achieved total test MSE Loss of 3.99 after 500 epochs of training with batch size of 32 and learning rate of 0.0005.
+Achieved average MSE test error of 3.13 dB for the scaled sound pressure level after 500 epochs of training with batch size of 32 and learning rate of 0.0005. The average test error could get further reduced by removing the few outliers.
 
 Used the weight decay of 1E-2 as L2 Regularization to prevent overfitting.
 
 Mean Squared Loss was used as the loss function to calculate errors between the ground-truth and predicted sound pressure levels.
 
-![image](https://user-images.githubusercontent.com/83327791/217629561-60b04922-5443-451a-869b-efd08aec26b8.png)
+![image](https://user-images.githubusercontent.com/83327791/217778656-af354588-56a9-4963-81b0-09cf125645ba.png)
 
-![loss](https://user-images.githubusercontent.com/83327791/217627423-bcc37713-3b72-4608-a958-74971461545b.png)
+
+![image](https://user-images.githubusercontent.com/83327791/217778628-9bea0c23-dbd1-437a-88d2-f6aadfe23074.png)
 
 
 
