@@ -28,7 +28,6 @@ I have shuffled, Split, and Normalized the dataset.
 Created a feed-forward MLP to train. Used 4 hidden layers with ReLU activation function at each layer.
 ![image](https://user-images.githubusercontent.com/83327791/217498006-207a9f33-9876-4422-bd18-f2314ac05e93.png)
 
-
 ## Results
 Achieved average MSE test error of 3.13 dB for the scaled sound pressure level after 500 epochs of training with batch size of 32 and learning rate of 0.0005. The average test error could get further reduced by removing the few outliers.
 
@@ -38,10 +37,9 @@ Mean Squared Loss was used as the loss function to calculate errors between the 
 
 ![image](https://user-images.githubusercontent.com/83327791/217778656-af354588-56a9-4963-81b0-09cf125645ba.png)
 
-
 ![image](https://user-images.githubusercontent.com/83327791/217778628-9bea0c23-dbd1-437a-88d2-f6aadfe23074.png)
 
-
+![image](https://user-images.githubusercontent.com/83327791/217780972-f9876962-e38f-4410-b11f-b3c15e4b2973.png)
 
 ## References
 [1] Thomas F. Brooks, D. Stuart Pope, and Michael A. Marcolini. Airfoil self-noise and prediction. NTRS Author
